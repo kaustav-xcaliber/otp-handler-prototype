@@ -1,0 +1,39 @@
+{
+  "name": "otp-handler-lib",
+  "version": "1.0.0",
+  "description": "A TypeScript-based library to handle OTP webhooks and storage for EHR integrations.",
+  "main": "dist/server/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server/index.ts",
+    "dev": "nodemon src/server/index.ts"
+  },
+  "keywords": [
+    "OTP",
+    "Redis",
+    "Webhook",
+    "EHR",
+    "Twilio",
+    "TypeScript",
+    "Express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "redis": "^4.7.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^20.19.4",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "type": "commonjs"
+}
